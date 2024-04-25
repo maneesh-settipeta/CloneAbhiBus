@@ -118,6 +118,9 @@
     padding: 2px;
 
 }
+.container_head{
+    display: flex;
+}
 .ButtonsStyling{
     font-size: 16px;
     color: black;
@@ -130,6 +133,8 @@
     padding: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 .ButtonsStyling:hover {
     background-color: #e3e7e9;

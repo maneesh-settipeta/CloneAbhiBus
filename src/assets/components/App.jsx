@@ -1,22 +1,13 @@
-import React from 'react';
-import './App.css'
-import Header from './Header';
-import Bottomcard from './Bottomcard';
-import Abhibusheader from './Abhibusheader';
-import AbhiBusMainHeader from './AbhiBusMainBackground';
-
-
-
-
+import "./App.css";
+import Abhibusheader from "./abhibus/Abhibusheader";
+import AbhiBusMainHeader from "./abhibus/AbhiBusMainBackground";
 
 function App() {
   return (
-   <div>
-    <Abhibusheader></Abhibusheader>
-    <AbhiBusMainHeader></AbhiBusMainHeader>
-  </div>
-)
+    <div>
+      <Abhibusheader></Abhibusheader>
+      <AbhiBusMainHeader></AbhiBusMainHeader>
+    </div>
+  );
 }
 export default App;
-
-
