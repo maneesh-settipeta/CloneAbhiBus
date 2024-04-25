@@ -1,0 +1,13 @@
+.Header_element {
+  box-shadow: 5px ;
+  color: red;
+}
+.header-comtainer{
+  width: 100vh;
+  box-shadow: 5px;
+}
+.container-moment{
+  /* flex-direction:"d-flex flex-column justify-content flex-end"; */
+  display: flex;
+  flex-direction: column;
+}
